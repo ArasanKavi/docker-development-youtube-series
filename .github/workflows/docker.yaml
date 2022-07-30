@@ -22,5 +22,5 @@ jobs:
         docker build ./c# -t testrepokavi/demo:latest
     - name: docker push
       run: |
-        docker push testrepokavi/demo:latest
+        docker push arasankavi/testrepokavi:demo
        
