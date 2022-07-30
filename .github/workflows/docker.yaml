@@ -19,8 +19,8 @@ jobs:
         docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD
     - name: docker build csharp
       run: |
-        docker build ./c# -t $DOCKER_USERNAME/testrepokavi:csharp
+        docker build ./c# -t testrepokavi/demo:latest
     - name: docker push
       run: |
-        docker push $DOCKER_USERNAME/testrepokavi:csharp
+        docker push testrepokavi/demo:latest
        
