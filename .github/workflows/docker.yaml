@@ -14,5 +14,5 @@ jobs:
     - name: docker login
       env:
         DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}    
-      run: echo "This job's status is ${{ DOCKER_USERNAME }}."
+      run: echo "This job's status is ${{ DOCKER_USERNAME }}"
     
